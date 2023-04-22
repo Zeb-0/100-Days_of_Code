@@ -23,3 +23,4 @@
 | 1-print_rev_recursion.c | `void _print_rev_recursion(char *s);` | prints a string in reverse|
 | 2-strlen_recursion.c | `int _strlen_recursion(char *s);` | Return the length of a string|
 | 3-factorial.c | `int factorial(int n);` | returns factorial of a number|
+| 4-pow_recursion.c | `int _pow_recursion(int x, int y);` | returns value of `x` raised to the power of `y`|
