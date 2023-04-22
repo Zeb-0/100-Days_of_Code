@@ -21,3 +21,4 @@
 |---|---|---|
 | 0-puts_recursion.c | `void _puts_recursion(char *s);` | prints a string followed by a new line|
 | 1-print_rev_recursion.c | `void _print_rev_recursion(char *s);` | prints a string in reverse|
+| 2-strlen_recursion.c | `int _strlen_recursion(char *s);` | Return the length of a string|
