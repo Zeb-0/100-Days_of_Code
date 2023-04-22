@@ -17,5 +17,4 @@
 
 | File Name | Prototype | File Description|
 |---|---|---|
-
 | 0-puts_recursion.c | `void _puts_recursion(char *s);` | prints a string followed by a new line|
