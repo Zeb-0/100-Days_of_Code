@@ -26,3 +26,4 @@
 | 4-pow_recursion.c | `int _pow_recursion(int x, int y);` | returns value of `x` raised to the power of `y`|
 | 5-sqrt_recursion.c | `int _sqrt_recursion(int n);` | calculates the natural square root of a number.|
 | 6-is_prime_number.c | `int is_prime_number(int n);` | cheks for prime number|
+| 100-is_palindrome.c | `int is_palindrome(char *s);` | checks if a string is a palindrome |
