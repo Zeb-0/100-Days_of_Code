@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/* returns length of a given string. */
+/* returns length of a given string using recursion. */
 
 int _strlen_recursion(char *s);
+int _strlen(char *s);
 
 int _strlen_recursion(char *s){
 	int len;
@@ -11,9 +12,6 @@ int _strlen_recursion(char *s){
 		return(0);
 	return (1 + _strlen_recursion(s + 1));
 }
-
-int _strlen(char *s);
-
 
 int _strlen(char *s){
         int len;
