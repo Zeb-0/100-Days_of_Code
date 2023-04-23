@@ -11,9 +11,15 @@ These are collections of object files linked into the program during linking pha
 - how to use it
 - Basic usage of `ar`, `ranlib`, `nm`
 
+### Resoures:
+- [What Is A “C” Library? What Is It Good For?](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
+- [Creating A Static “C” Library Using “ar” and “ranlib”](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
+- [Using A “C” Library In A Program](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
+- [What is difference between Dynamic and Static library(Static and Dynamic linking) (stop at 4:44)](https://www.youtube.com/watch?v=eW5he5uFBNM)
+
 ## Tasks
 
-File Name | File Description|
----|---
-libmy.a | Create the static library libmy.a containing all the functions listed below on this page.|
-create_static_lib.sh | Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.|
+| File Name | File Description|
+|---|---
+| libmy.a | Create the static library libmy.a containing all the functions listed below on this page.|
+| create_static_lib.sh | Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.|
