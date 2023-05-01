@@ -9,7 +9,7 @@
 
 int str_len(char *s);
 char *str_copy(char *dest, char *src);
-char *_strdup(char *str);
+char *str_dup(char *str);
 
 
 int str_len(char *s){
@@ -40,13 +40,13 @@ char *str_copy(char *dest, char *src){
 
 
 /**
- * *_strdup - returns a pointer to a newly allocated space in memory,
+ * *str_dup - returns a pointer to a newly allocated space in memory,
  * which contains a copy of the string given as a parameter.
  *
  * Return: pointer to duplicated string otherwise NULL if str = NULL
  */
 
-char *_strdup(char *str){
+char *str_dup(char *str){
 	int len;
 	char *new_str;
 
@@ -63,7 +63,7 @@ char *_strdup(char *str){
 int main(void){
 	char *s;
 
-    s = _strdup("ALX SE");
+    s = str_dup("ALX SE");
     if (s == NULL)
     {
         printf("failed to allocate memory\n");
