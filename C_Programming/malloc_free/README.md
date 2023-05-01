@@ -34,5 +34,5 @@ uses `malloc()` function
 File Name | Prototype | File Description|
 ---|---|---|
 0-create_array.c | `char *create_array(unsigned int size, char c);` | creates an array of chars and initializes it witha specific char|
- | | Returns pointer to the array|
- | | Returns `NULL` if size = `0`|
+| | | Returns pointer to the array|
+| | | Returns `NULL` if size = `0`|
