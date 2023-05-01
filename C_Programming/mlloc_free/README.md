@@ -1,6 +1,6 @@
 # DAY 004
 
-## Malloc ans Free
+## Malloc and Free
 
 ### Dynamic memory allocation
 
