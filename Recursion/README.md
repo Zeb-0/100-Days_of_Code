@@ -1,6 +1,6 @@
 # DAY 1
 
-# Recursion
+# Recursion.
 
 ## Learning Objectives:
 - What is recursion
