@@ -4,11 +4,11 @@
 
 // some practice on strimgs
 int main(){
-	char Name;
+	char Name[100];
 
 	printf("Hello. Welcome to our greetings session.\nWhat is your name?\n");
-	scanf("%s", &Name);
-	if (Name.length < 8){
+	scanf("%99s", &Name);
+	if (strlen(Name) < 8){
 		printf("Name is too short.\n");
 	}
 	else
