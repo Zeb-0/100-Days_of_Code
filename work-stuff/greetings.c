@@ -31,19 +31,11 @@ int main(){
 	int choice;
 
 	do {
-<<<<<<< HEAD
 		printf("\nEnter choice: ");
 		scanf("%d)\n", &choice);
 
 		if (choice > 3){
 			printf("Invalid choice. Please enter a Valid choice.\n");
-=======
-		printf("\nEnter Pno: ");
-		scanf("%d)\n", &choice);
-
-		if (choice > 3){
-			printf("Invalid choice. Please enter a Vlid choice.\n");
->>>>>>> 5bfc12ac0d9408c615253962096d2f25516986f9
 			continue;
 		}
 		else {
