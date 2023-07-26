@@ -26,7 +26,26 @@ int main(){
 
 	Pno = sizeof(Pname) / sizeof(Pname[0]);
 	for (i = 0; i < Pno; i++){
-		printf("%d : %s\n", i + 1, Pname[i]);
+		printf("%d : %s\n\n", i + 1, Pname[i]);
 	}
+	int choice;
+
+	do {
+		printf("\nEnter Pno: ");
+		scanf("%d)\n", &choice);
+
+		if (choice > 3){
+			printf("Invalid choice. Please enter a Vlid choice.\n");
+			continue;
+		}
+		else {
+			printf("Good morning %s. How are you doing today?\n", Name);
+			char response[100];
+
+			scanf("%s\n", response);
+		}
+		break;
+	}
+	while (1);
 	return (0);
 }
