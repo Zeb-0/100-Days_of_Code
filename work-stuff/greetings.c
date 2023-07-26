@@ -5,7 +5,7 @@
 // some practice on strimgs
 int main(){
 	char Name[100];
-	int Pno;
+	int Pnumber;
 	char Pname[][100] = {"Morning", "Noontime", "Evening"};
 	int i;
 
@@ -15,8 +15,8 @@ int main(){
 		printf("Name is too short.\n");
 	}
 	else
-		printf("Hi %s. I am your assistant\n\n", Name);
-	printf("Here are the greetings packages that we offer.\nSelect one.\n");
+		printf("Hi %s. I am your assistant\n", Name);
+	printf("\nHere are the greetings packages that we offer.\nSelect one.\n");
 
 //	Package = 3;
 //	for (Package = 0; Package <= 3; Package++) {
@@ -24,17 +24,25 @@ int main(){
 //		Pname[100] = ["Morning", "Noontime", "Evening"];
 //		for (i = 0; Pname[i] < 
 
-	Pno = sizeof(Pname) / sizeof(Pname[0]);
-	for (i = 0; i < Pno; i++){
+	Pnumber = sizeof(Pname) / sizeof(Pname[0]);
+	for (i = 0; i < Pnumber; i++){
 		printf("%d : %s\n\n", i + 1, Pname[i]);
 	}
+
 	int choice;
 
 	do {
 		printf("\nEnter choice: ");
 		scanf("%d)\n", &choice);
 
-		if (choice > 3){
+		// check if input is valid integer
+		if (scanf("%d", &choice) != 1) {
+			while (getchar() != '\n')
+				continue;
+			printf("Invalid choice. Please enter a Valid choice.\n");
+			continue;
+		}
+		if (choice < 1 || choice > 3){
 			printf("Invalid choice. Please enter a Valid choice.\n");
 			continue;
 		}
