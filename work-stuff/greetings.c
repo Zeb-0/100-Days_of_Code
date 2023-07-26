@@ -9,14 +9,19 @@ int main(){
 	char Pname[][100] = {"Morning", "Noontime", "Evening"};
 	int i;
 
-	printf("Hello. Welcome to our greetings session.\nWhat is your name?\n");
-	scanf("%99s", Name);
-	if (strlen(Name) < 3){
-		printf("Name is too short.\n");
+	do {
+		printf("Hello. Welcome to our greetings session.\nWhat is your name?\n");
+		scanf("%99s", Name);
+		if (strlen(Name) < 3){
+			printf("Name is too short.\n");
+			continue;
+		}
+		else
+			printf("Hi %s. I am your assistant\n", Name);
+		printf("\nHere are the greetings packages that we offer.\nSelect one.\n");
+		break;
 	}
-	else
-		printf("Hi %s. I am your assistant\n", Name);
-	printf("\nHere are the greetings packages that we offer.\nSelect one.\n");
+	while (1);
 
 //	Package = 3;
 //	for (Package = 0; Package <= 3; Package++) {
