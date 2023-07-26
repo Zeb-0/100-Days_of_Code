@@ -16,12 +16,12 @@ int main(){
 			printf("Name is too short.\n");
 			continue;
 		}
-		else
+		else {
 			printf("Hi %s. I am your assistant\n", Name);
-		printf("\nHere are the greetings packages that we offer.\nSelect one.\n");
-		break;
-	}
-	while (1);
+			break;
+		}
+	}while (1);
+	printf("\nHere are the greetings packages that we offer.\nSelect one.\n");
 
 //	Package = 3;
 //	for (Package = 0; Package <= 3; Package++) {
@@ -47,7 +47,7 @@ int main(){
 			printf("Invalid choice. Please enter a Valid choice.\n");
 			continue;
 		}
-		if (choice < 1 || choice > 3){
+		if (choice < 1 || choice > Pnumber){
 			printf("Invalid choice. Please enter a Valid choice.\n");
 			continue;
 		}
@@ -55,9 +55,9 @@ int main(){
 			printf("Good morning %s. How are you doing today?\n", Name);
 			char response[100];
 
-			scanf("%s\n", response);
+			scanf("%99s", response);
+			break;
 		}
-		break;
 	}
 	while (1);
 	return (0);
