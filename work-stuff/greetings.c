@@ -6,7 +6,7 @@
 int main(){
 	char Name[100];
 	int Pnumber;
-	char Pname[][100] = {"Morning", "Noontime", "Evening"};
+	char Pname[][100] = {"Morning", "Noontime", "Evening", "Exit"};
 	int i, choice = 4;
 	char response[100];
 
@@ -64,18 +64,16 @@ int main(){
 			printf("Bonsoir %s ?\n", Name);
 			scanf("%99s", response);
 			printf("\nHow was your day?\n");
-			scanf("%99s\n", response);
+			scanf("%99s", response);
 			printf("Have a nice evening and a good night's rest.\n See you in the morning.\n");
 			break;
-		default:
-			printf("Please enter a valid choice\n");
+		case 4:
+			printf("Thanks for checking in. Goodbye.\n");
 			break;
 		}
-		if (choice == 4) {
-			printf("Exiting the programme\n");
-		}
+		break;
 
-	}while (choice != 4);
+	}while(1);
 
 	return (0);
 }
