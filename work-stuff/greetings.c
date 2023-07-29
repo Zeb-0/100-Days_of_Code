@@ -45,7 +45,7 @@ int main(){
 			printf("Invalid choice. Please enter a Valid choice.\n");
 			continue;
 		}
-		if (choice < 1 || choice > Pnumber){
+		else if (choice < 1 || choice > Pnumber){
 			printf("Invalid choice. Please enter a Valid choice.\n");
 			continue;
 		}
@@ -55,10 +55,26 @@ int main(){
 			scanf("%99s", response);
 			printf("\nThat's great to hear.\nHave a wonderful day.\n");
 			break;
+		case 2: // It's Noontime
+			printf("Good afternoon %s ? Had lunch yet?\n", Name);
+			scanf("%99s", response);
+			printf("\nEnjoy the rest of the day. you got this.\n");
+			break;
+		case 3: // It is Evening
+			printf("Bonsoir %s ?\n", Name);
+			scanf("%99s", response);
+			printf("\nHow was your day?\n");
+			scanf("%99s\n", response);
+			printf("Have a nice evening and a good night's rest.\n See you in the morning.\n");
+			break;
 		default:
 			printf("Please enter a valid choice\n");
 			break;
-	}
+			}
+		else if (choice == 4) {
+			printf("Exiting the programme\n"):
+		}
+
 	}while (choice != 4);
 
 	return (0);
