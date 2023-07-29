@@ -22,14 +22,8 @@ int main(){
 			break;
 		}
 	}while (1);
-	printf("\nHere are the greetings packages that we offer.\nSelect one.\n");
-
-//	Package = 3;
-//	for (Package = 0; Package <= 3; Package++) {
-//		printf("%d\n", Package);
-//		Pname[100] = ["Morning", "Noontime", "Evening"];
-//		for (i = 0; Pname[i] < 
-
+	printf("\nHere are the greetings packages that we offer.\nSelect one.\n"); 
+	
 	Pnumber = sizeof(Pname) / sizeof(Pname[0]);
 	for (i = 0; i < Pnumber; i++){
 		printf("%d : %s\n\n", i + 1, Pname[i]);
@@ -55,11 +49,13 @@ int main(){
 			scanf("%99s", response);
 			printf("\nThat's great to hear.\nHave a wonderful day.\n");
 			break;
+			
 		case 2: // It's Noontime
 			printf("Good afternoon %s ? Had lunch yet?\n", Name);
 			scanf("%99s", response);
 			printf("\nEnjoy the rest of the day. you got this.\n");
 			break;
+			
 		case 3: // It is Evening
 			printf("Bonsoir %s ?\n", Name);
 			scanf("%99s", response);
@@ -67,6 +63,7 @@ int main(){
 			scanf("%99s", response);
 			printf("Have a nice evening and a good night's rest.\n See you in the morning.\n");
 			break;
+			
 		case 4:
 			printf("Thanks for checking in. Goodbye.\n");
 			break;
