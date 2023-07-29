@@ -70,9 +70,9 @@ int main(){
 		default:
 			printf("Please enter a valid choice\n");
 			break;
-			}
-		else if (choice == 4) {
-			printf("Exiting the programme\n"):
+		}
+		if (choice == 4) {
+			printf("Exiting the programme\n");
 		}
 
 	}while (choice != 4);
