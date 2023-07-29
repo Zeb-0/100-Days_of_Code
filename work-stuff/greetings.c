@@ -8,6 +8,7 @@ int main(){
 	int Pnumber;
 	char Pname[][100] = {"Morning", "Noontime", "Evening"};
 	int i, choice = 4;
+	char response[100];
 
 	do {
 		printf("Hello. Welcome to our greetings session.\nWhat is your name?\n");
@@ -50,18 +51,15 @@ int main(){
 		}
 		switch(choice) {
 		case 1: // check if choice is morning
-			if (choice == 1){
-				printf("Good morning %s ? How are you doing today?\n", Name);
-				scanf("%99s", response);
-				printf("\nThat's great to hear.\nHave a wonderful day.\n");
-			}
+			printf("Good morning %s ? How are you doing today?\n", Name);
+			scanf("%99s", response);
+			printf("\nThat's great to hear.\nHave a wonderful day.\n");
 			break;
 		default:
 			printf("Please enter a valid choice\n");
 			break;
-	}	
 	}
-	while (choice != 4);
-	printf("That's great to hear.\nHave a wonderful day.\n");
+	}while (choice != 4);
+
 	return (0);
 }
