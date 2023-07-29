@@ -37,8 +37,7 @@ int main(){
 	int choice;
 
 	do {
-		printf("\nEnter choice: ");
-		scanf("%d)\n", &choice);
+		printf("\nEnter choice: \n");
 
 		// check if input is valid integer
 		if (scanf("%d", &choice) != 1) {
@@ -60,5 +59,6 @@ int main(){
 		}
 	}
 	while (1);
+	printf("That's great to hear.\nHave a wonderful day.\n");
 	return (0);
 }
