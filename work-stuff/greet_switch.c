@@ -15,6 +15,7 @@ int main(){
 				scanf("%99s", response);
 				printf("\nThat's great to hear.\nHave a wonderful day.\n");
 			}
+			break;
 		default:
 			printf("Please enter a valid choice\n");
 			break;
