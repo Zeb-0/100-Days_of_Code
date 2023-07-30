@@ -6,4 +6,4 @@ For this project i am trying to gain a deeper understanding of the followimg asp
 - for loop
 - do - while loop
 
-** Also gain more practice on `switch` statement.
+**Also gain more practice on implementing the `switch` statement.
