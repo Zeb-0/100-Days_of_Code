@@ -8,7 +8,7 @@ int main() {
 
 	printf("Enter three letters: ");
 	for (i = 0; i < 3; i++)
-		scanf("%c", letters[i]);
+		scanf(" %c", &letters[i]);
 
 
 //	int tl = sizeof(letters) / sizeof(letters[0]);
