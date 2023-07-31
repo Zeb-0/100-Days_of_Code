@@ -9,16 +9,16 @@ int main() {
     printf("Enter the heigth: \n");
     scanf("%d", &height);
 
-    perimeter = width * height;
-    return (perimeter);
+    perimeter = 2 * (width + height);
+//    return (perimeter);
 
     printf("Perimeter of rectangle is: %d\n", perimeter);
 
     // calculate area of perimeter
     area = width * height;
-    return (area);
+//    return (area);
 
-    printf("Area of rectangle is: \n", area);
+    printf("Area of rectangle is: %d\n", area);
 
     return (0);
 }
