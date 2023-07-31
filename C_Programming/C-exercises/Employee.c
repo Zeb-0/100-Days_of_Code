@@ -6,20 +6,20 @@
  * 
  * Return: 0
 */
-int maim() {
-    int Emp_ID[10];
+int main() {
+    char Emp_ID[10];
     int W_Hrs;
-    float Pay_per_hr = 15000;
-    float Salary;
+    double Pay_per_hr = 15000.00;
+    double Salary;
 
     printf("Input the Employees ID: ");
-    scanf("%d", &Emp_ID);
+    scanf("%s", &Emp_ID);
+
     printf("\nInput the working hrs: ");
-    scanf("&d", &W_Hrs);
+    scanf("%d", &W_Hrs);
 
     Salary = Pay_per_hr * W_Hrs;
-    printf("Employees's ID is: %d\n", Emp_ID);
-    printf("Salary = U$ %.2f\n", Salary);
+    printf("Employee's ID is: %s\nSalary = U$ %.2f\n", Emp_ID, Salary);
 
     return (0);
 }
