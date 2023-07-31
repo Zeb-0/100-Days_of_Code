@@ -4,3 +4,4 @@
 # did the following:
 1. simple area & perimeter calculations.
 2. program that converts days into year, weeks and remaining days.
+3. program that calculates an employee's salary
