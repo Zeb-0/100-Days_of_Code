@@ -18,4 +18,5 @@ int main(){
 		pr8ntf("%s\n", buffer);
 
 		return (0);
+	}
 }
