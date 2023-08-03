@@ -12,7 +12,7 @@ int main(){
 	char *buffer;	// pointer to store our input
 	size_t len;	// size of input line
 	
-	while(True) {
+	while(1) {
 		printf("$ ");
 		getline(&buffer, &len, stdin);
 		printf("%s\n", buffer);
