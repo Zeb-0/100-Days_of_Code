@@ -16,7 +16,6 @@ int main(){
 		printf("$ ");
 		getline(&buffer, &len, stdin);
 		printf("%s\n", buffer);
-
-		return (0);
 	}
+	return (0);
 }
