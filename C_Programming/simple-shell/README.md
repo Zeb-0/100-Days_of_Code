@@ -22,6 +22,7 @@ Prompts user for input, and prints back on stdout.
 ### STRTOK
 **Syntax:**
 - `char *strtok(char *str, const char *delimiters);`
+
 Breaks a string into a seq of zero/nonempty tokens.
 - Tokens are basically smaller parts of the string.
 
