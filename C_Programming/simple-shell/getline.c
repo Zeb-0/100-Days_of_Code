@@ -15,7 +15,7 @@ int main(){
 	while(True) {
 		printf("$ ");
 		getline(&buffer, &len, stdin);
-		pr8ntf("%s\n", buffer);
+		printf("%s\n", buffer);
 
 		return (0);
 	}
