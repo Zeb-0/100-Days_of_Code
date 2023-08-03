@@ -32,3 +32,9 @@ It returns a pointer to 1st character of each token found in the input string.
     * `*str` should be the input string
 - Subsequent call:
     * the argument should be `NULL`
+
+### Executing a program - EXECVE
+
+`Execve` - Is a system call that allows a process to execute another program.
+- It loads the new program into the current process' memory in place of prev program
+- On success it does not return to resume the rest of prev program
