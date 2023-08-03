@@ -11,4 +11,7 @@ can be retrieved using:
 ### Arguments
 Revising on `argc` and `argv`
 
-###
+---
+# DAY 16 - 100-Days_of_code
+
+### Getline function
