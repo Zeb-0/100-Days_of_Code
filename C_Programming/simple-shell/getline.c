@@ -9,8 +9,8 @@
  * then prints to stdout
  */
 int main(){
-	char *buffer;	// pointer to store our input
-	size_t len;	// size of input line
+	char *buffer = malloc(1024);	// pointer to store our input
+	size_t len = 1024;	// size of input line
 	
 	while(1) {
 		printf("$ ");
