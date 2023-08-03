@@ -23,7 +23,7 @@ int main() {
 	}
 	else {
 		wait(&status);
-		printf("It's all better now\n);
+		printf("It's all better now\n");
 	}
 	return (0);
 }
