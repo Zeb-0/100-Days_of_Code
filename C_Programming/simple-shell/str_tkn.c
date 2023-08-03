@@ -4,7 +4,7 @@
 // string tokenization
 
 int main() {
-	char str[] = "hello. We are testing string token.";
+	char str[] = "Hello, we are testing string token.";
 	char delims[] = ",."; // for splitting the string
 	
 	char *token = strtok(str, delims);
