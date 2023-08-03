@@ -21,11 +21,12 @@ int main() {
 		printf("$ ");
 		getline(&buffer, &len, stdin);
 		printf("%s\n", buffer);
+		token = strtok(buffer, delims);
+		while(token) {
+			printf("Token : %s\n", token);
+			token = strtok(NULL, delims);
+		}
 	}
-	token = strtok(buffer, delims);
-	while(token) {
-		printf("Token : %s\n", token);
-		token = (NULL, delims);
-	}
+	free(buffer);
 	return (0);
 }
