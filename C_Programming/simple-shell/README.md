@@ -45,5 +45,17 @@ It returns a pointer to 1st character of each token found in the input string.
 ---
 ### Wait - `wait()`
 It suspends execution of the caling process until one of its children terminates.
+---
 
+# DAY 17 - 100-Days_of_code
 
+### Fork + Wait + Execve
+
+Tried to combine fork, wait and execve system calls to list all files in aa directory.
+
+suppossed to do it in 5 instances/ child processes.
+
+- did the code - the code is fine
+- faled to list the files though.
+
+**Gotta work on PATH implementation**
