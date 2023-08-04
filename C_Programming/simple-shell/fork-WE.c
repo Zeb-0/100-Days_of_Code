@@ -8,7 +8,7 @@
 int main() {
 	int i = 0;
 	int status;
-	char *argv[] = {"ls", "-l", "tmp/", NULL};
+	char *argv[] = {"ls", "-l", ".", NULL};
 	pid_t child_pid;
 
 	while (i < 5) {
