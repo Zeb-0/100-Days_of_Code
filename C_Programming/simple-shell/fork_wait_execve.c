@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdli.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
 #include <sys/types.h>
@@ -20,7 +20,7 @@ int main() {
 			perror("Error:");
 			return (1);
 		}
-		wait(&staus);
+		wait(&status);
 	}
 	if (child_pid == 0) {
 		printf("Son Id : %u\n\nPops Id : %u\n", getpid(), getppid());
