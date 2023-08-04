@@ -42,7 +42,7 @@ It returns a pointer to 1st character of each token found in the input string.
 ### Creating Processes - `fork`
 `fork() - creates a new child process almost identical to the parent
 - on successful return 2 processes continue to run the same program but with different stacks, data and heaps.
----
+
 ### Wait - `wait()`
 It suspends execution of the caling process until one of its children terminates.
 ---
