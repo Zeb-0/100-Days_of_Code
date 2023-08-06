@@ -59,3 +59,10 @@ suppossed to do it in 5 instances/ child processes.
 - faled to list the files though.
 
 **Gotta work on PATH implementation**
+---
+
+# DAY 18 - 100-Days_of_code
+
+### Super Simple Shell.
+
+- the objective here is to write a simple shell using all the above knowledge.
