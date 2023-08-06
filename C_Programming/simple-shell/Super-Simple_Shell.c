@@ -16,7 +16,7 @@
 int main() {
 	int i, status;
 	pid_t child_pid;
-	char *argv[] = {"bin/ls", "-l", "/usr/", NULL};
+	char *argv[] = {"/bin/ls", "-l", "/usr/", NULL};
 	char *buffer = malloc(1024);
 	size_t line = 1024;
 
