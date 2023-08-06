@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <sys/wait.h>
+#include <windows.h>
 #include <sys/types.h>
 
 // the correct version for fork + wait + execve
