@@ -15,23 +15,28 @@
 
 int main() {
 	int i, status;
-	pid_t my_pid;
+	pid_t my_pid, child_pid;
 	char *argv[] = {"bin/ls", "-la", "/Zeberio/Desktop/Coding/", NULL};
 	char *buffer = malloc(1024);
 	size_t line = 1024;
 
-	// create new process
-	my_pid = fork();
-	if (my_pid == -1) {
-		perror("Error");
-		return (1);
+	while (1) {
+		// create new process
+		child_pid = fork();
+		if (child_pid == -1) {
+			perror("Error");
+			return (1);
+		}
+		else if (child_pid == 0) {
+			printf("$ ");
+			getline(&buffer, &line, stdin);
+			execve(argv[0], argv, NULL);
+			perror("Error");
+			exit(1);
+		}
+		else
+			wait(&status);
 	}
-
-	// read line
-	while(1) {
-		printf("& ");
-		getline(&buffer, &line, stdin);
-	}
-
+	free(buffer);
 	return (0);
 }
