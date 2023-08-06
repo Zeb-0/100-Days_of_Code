@@ -15,8 +15,8 @@
 
 int main() {
 	int i, status;
-	pid_t my_pid, child_pid;
-	char *argv[] = {"bin/ls", "-la", "/Zeberio/Desktop/Coding/", NULL};
+	pid_t child_pid;
+	char *argv[] = {"bin/ls", "-l", "/Zeberio/Desktop/Coding/", NULL};
 	char *buffer = malloc(1024);
 	size_t line = 1024;
 
