@@ -66,3 +66,10 @@ suppossed to do it in 5 instances/ child processes.
 ### Super Simple Shell.
 
 - the objective here is to write a simple shell using all the above knowledge.
+---
+
+# DAY 19 - 100-Days_of_code
+
+Working on **AirBnB Clone**
+### Python Packages
+- 
