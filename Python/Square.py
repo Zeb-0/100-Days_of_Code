@@ -29,26 +29,7 @@ class Square:
         elif value < 0:
             raise ValueError("value must be >=0")
         self.__size = value
-
-    def __init__(self, size=0, position=(0, 0)):
-        '''
-        initialise instance position '''
-
-        self.__position = position
-
-    @property
-    def position(self):
-        ''' retriever for position '''
-    
-        return (self.__position)
-
-    @position.setter
-    def position(self, value):
-        ''' set position '''
-
-        if not isinstance(value, tuple) and if not isinstance(value, int):
-            raise TypeError("must be a tuple of 2 posivive integers")
-        
+ 
 
     def area(self):
         return self.__size ** 2
