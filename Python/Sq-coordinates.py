@@ -31,9 +31,10 @@ class Square:
             raise TypeError("must be integer")
         elif (
                 for num in value
-                if num < 0:
-                raise ValueError("must be >=0")
-                )
+                if num < 0):
+            raise ValueError("must be >=0")
+        self.__position = value
+
         def area(self):
             return (self.__size ** 2)
 
