@@ -12,7 +12,7 @@ class testSquare(unittest.TestCase):
 
     # test area method
     def test_area(self):
-        squae = Square(5)
+        square = Square(5)
         self.assertEqual(square.area(), 25)
 
     # return the corect size
