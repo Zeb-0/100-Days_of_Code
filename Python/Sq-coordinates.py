@@ -42,7 +42,7 @@ class Square:
             return
 
             # print top padding
-        for i in range(self.__positio[1]):
+        for i in range(self.__position[1]):
             print("")
 
         # print square rows
