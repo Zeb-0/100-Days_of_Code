@@ -19,8 +19,8 @@ class Square:
             raise ValueError("value must be >=0")
         self.__size = value
 
-    @propert
-    def positio(self):
+    @property
+    def position(self):
         return (self.__position)
 
     @position.setter
@@ -29,32 +29,30 @@ class Square:
             raise  TypeError("Value must be tuple")
         elif not all(isinstance(num, int) for num in value):
             raise TypeError("must be integer")
-        elif (
-                for num in value
-                if num < 0):
+        elif any(num < 0 for num in value):
             raise ValueError("must be >=0")
         self.__position = value
 
-        def area(self):
-            return (self.__size ** 2)
+    def area(self):
+        return (self.__size ** 2)
 
-        def my_print(self):
-            if self.__size == 0:
-                print("")
-                return
+    def my_print(self):
+        if self.__size == 0:
+            print("")
+            return
 
             # print top padding
-            for i in range(self.__positio[1]):
-                print("")
+        for i in range(self.__positio[1]):
+            print("")
 
-            # print square rows
-            for i in range(self.__size):
-                # horizontal padding
-                for n in range(self.__position[0]):
-                    print("", end="")
+        # print square rows
+        for i in range(self.__size):
+            # horizontal padding
+            for n in range(self.__position[0]):
+                print("", end="")
 
-                #print Square content
-                for j in range(self.__size):
-                    print("#", end="")
+            #print Square content
+            for j in range(self.__size):
+                print("#", end="")
 
-                print()
+            print()
