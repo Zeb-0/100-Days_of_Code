@@ -12,7 +12,7 @@ my_square_1.my_print()
 
 print('---')
 
-my_square_2 = Square(6, (0, 3))
+my_square_2 = Square(6, (3, 0))
 my_square_2.my_print()
 
 print('---')

@@ -49,7 +49,7 @@ class Square:
         for i in range(self.__size):
             # horizontal padding
             for n in range(self.__position[0]):
-                print("", end="")
+                print(" ", end="")
 
             #print Square content
             for j in range(self.__size):
