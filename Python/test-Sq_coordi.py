@@ -1,6 +1,6 @@
-#!usr/bin/python
+#!/usr/bin/python
 
-Square = __import__("Square").Square
+Square = __import__("Square").Sq-coordinates.py
 
 my_square = Square(4)
 my_square.my_print()
