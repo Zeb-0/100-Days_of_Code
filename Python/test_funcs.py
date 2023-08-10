@@ -2,7 +2,7 @@
 
 ''' test file for module `funcs` '''
 import unittest
-import funcs
+from funcs import Funcs
 
 
 class test_funcs:
