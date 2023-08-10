@@ -5,8 +5,8 @@
 import sys
 import unittest
 
-sys.path.append('../models')
-from models.funcs import Funcs
+# sys.path.append('../models')
+from funcs import Funcs
 
 
 class testFuncs(unittest.TestCase):
