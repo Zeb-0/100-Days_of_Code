@@ -5,7 +5,7 @@
 import sys
 import unittest
 
-# sys.path.append('../models')
+sys.path.append('../models')
 from funcs import Funcs
 
 
