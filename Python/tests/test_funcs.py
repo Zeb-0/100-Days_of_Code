@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 ''' test file for module `funcs` '''
 import unittest
@@ -8,7 +8,7 @@ from models.funcs import Funcs
 class test_funcs(unittest.TestCase):
 
     def test_add(self):
-        result = Funcs().add(2, 3)
+        result = Funcs().add(2,3)
         self.assertEqual(result, 5)
 
 
