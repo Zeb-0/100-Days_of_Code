@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 
 ''' test file for module `funcs` '''
+
+import sys
 import unittest
+
+# sys.path.append('../models')
 from models.funcs import Funcs
 
 
