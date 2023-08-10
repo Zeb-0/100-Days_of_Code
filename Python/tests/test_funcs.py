@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 ''' test file for module `funcs` '''
 import unittest
 from models.funcs import Funcs
 
 
-class test_funcs(unittest.TestCase):
+class testFuncs(unittest.TestCase):
 
     def test_add(self):
         result = Funcs().add(2,3)
