@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 ''' test file for module `funcs` '''
 
@@ -6,7 +6,7 @@ import sys
 import unittest
 
 sys.path.append('../models')
-from models.funcs import Funcs
+from funcs import Funcs
 
 
 class testFuncs(unittest.TestCase):
