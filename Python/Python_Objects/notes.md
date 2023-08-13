@@ -16,7 +16,7 @@ _ items = #items
     * default value - returned if the `attribute` doesn't exist on the object
 
 - **syntax:**
-    * `getattr(object, attribute_name, default_value)
+    * `getattr(object, attribute_name, default_value)`
 ---
 
 # join()
