@@ -27,6 +27,7 @@
     * separator -> used to separate the elements in the iterable.
          - could be: a comma, space etc
     * iterable - sequence of elements you want to join together
+---
 
 # __slots__
 - Is an attribute used to explicitly declare the attribs that a class can have
