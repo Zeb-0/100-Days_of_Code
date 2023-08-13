@@ -61,4 +61,10 @@ if no arguments are given it lists all the currently defined names of `variables
 ---
 
 # Packages
+Are a way of structuring Python's module namespace by using `dotted module names`.
+Also a collection of modules.
+For python to treat directories as packages, `__init__.py` files are needed
 
+An example showing usage is: 
+    - `import sound.effects.echo`
+    - `from sound.effects import echo`
