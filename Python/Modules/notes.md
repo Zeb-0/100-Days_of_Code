@@ -36,3 +36,29 @@ if __name__ == "__main__":
 Importing the module won't execute the code.
 
 Used to provide convenient user interface to a module also for testing purposes.
+---
+
+# __pycache__
+
+Is a directory for storing the compiled versions of the modules in cache format.
+- the catched modules are named as: `module.versio.pyc`.
+
+---
+
+# Standard Modules
+Python comes with a library of modules usually described in a separate document - **Library Reference**.
+xample is the `sys` module.
+---
+
+# dir()
+
+Is a built-in function
+- used for finding out the names contained in a module.
+- returns a sorted list of strings
+ ### Usage:
+    - `dir(module_name)`
+if no arguments are given it lists all the currently defined names of `variables`, `modules`, `functions` etc.
+---
+
+# Packages
+
