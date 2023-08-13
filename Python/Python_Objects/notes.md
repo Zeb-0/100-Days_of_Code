@@ -1,7 +1,7 @@
 # copy()
 
 ## Usage/Syntax:
-_ items = #items
+- items = #items
 - new_items = items.copy()
 ---
 
