@@ -12,3 +12,8 @@ to gain more insight on lists and list methods visit:
 - there may be more `for/if` clauses
 
 The result is a new list resulting from evaluating the expression in the context of the `for/if` clauses
+
+
+# on DAY 27 - 100-Days_of_Code
+- learnt that strings are immutable in python
+- Any string manipulation method should employ the iterarative method to return a new string without the characters.
