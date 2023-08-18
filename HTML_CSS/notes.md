@@ -53,3 +53,7 @@
 - Denoted by: `<footer>...</footer>` tag
 - identifies the closing/end of a page, article, section.
 - placed at bottom of its parent.
+
+### Small
+- enoted by: `<small>...</small>`tag
+- Semantically represents side comments and small prints
