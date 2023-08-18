@@ -9,9 +9,9 @@
     * `<h11></ha>`
     * `<p></p>`
     * `<b>` - offsets text stylistically
-    `<strong>` - gives strong importance to text
-    `<em>` - place `stressed emphasis` on text
-    `<i>` - convey txt in `alternative voice/tone` like in quotes
+    * `<strong>` - gives strong importance to text
+    * `<em>` - place `stressed emphasis` on text
+    * `<i>` - convey txt in `alternative voice/tone` like in quotes
 
 ### Header
 - used to designate the top of a page, article, section or other segment of a page.
