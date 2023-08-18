@@ -57,3 +57,7 @@
 ### Small
 - enoted by: `<small>...</small>`tag
 - Semantically represents side comments and small prints
+
+--------------------
+##Check out:
+- [Encoding Characters](https://copypastecharacter.com/)
