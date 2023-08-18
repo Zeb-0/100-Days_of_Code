@@ -25,3 +25,31 @@
     * table of contents
     * prev/next links
     * other very importaant groups of nav. links
+- Navigation uses:
+    * `<nav>...</nav>`
+
+### Article
+- uses `<article>...</article>` tag
+- used to identify a section(s) of independent, self-contained content tht can be independently distributed or reused
+- the content if replicated elsewhere sgould still make sense/meaningful
+
+### Section
+- denoted bby: `<section>...</section>`
+- used to identfy a thematic grouping of content
+- may include a heading
+- identifies all its content as related
+- commonly used to break-up & provide hierachy to a page
+
+### Aside
+- denoted by : `<aside>...</aside>` tag
+- holds content for:
+    * sidebars
+    * inserts
+    * brief explanations
+- used within an <article> element
+- usually placed to `left` or `right` side of a page
+
+### Footer
+- Denoted by: `<footer>...</footer>` tag
+- identifies the closing/end of a page, article, section.
+- placed at bottom of its parent.
