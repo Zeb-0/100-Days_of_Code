@@ -3,20 +3,20 @@
 - decided to do some html-css work to refresh my memory on some front-end Development
 ## HTML
 - Divisions & Spans
-    * <div></div> 
-    * <span></span>
+    * `<div></div>` 
+    * `<span></span>`
 - Text-Based elements:
-    * <h11></ha>
-    * <p></p>
-    * <b> - offsets text stylistically
-    <strong> - gives strong importance to text
-    <em> - place `stressed emphasis` on text
-    <i> - convey txt in `alternative voice/tone` like in quotes
+    * `<h11></ha>`
+    * `<p></p>`
+    * `<b>` - offsets text stylistically
+    `<strong>` - gives strong importance to text
+    `<em>` - place `stressed emphasis` on text
+    `<i>` - convey txt in `alternative voice/tone` like in quotes
 
 ### Header
 - used to designate the top of a page, article, section or other segment of a page.
 - uses:
-    * <header>...</header>
+    * `<header>...</header>`
 
 ### Navigation
 - identifis a section of major `navigational links` on a page
@@ -34,7 +34,7 @@
 - the content if replicated elsewhere sgould still make sense/meaningful
 
 ### Section
-- denoted bby: `<section>...</section>`
+- denoted by: `<section>...</section>`
 - used to identfy a thematic grouping of content
 - may include a heading
 - identifies all its content as related
@@ -55,7 +55,7 @@
 - placed at bottom of its parent.
 
 ### Small
-- enoted by: `<small>...</small>`tag
+- denoted by: `<small>...</small>`tag
 - Semantically represents side comments and small prints
 
 --------------------
