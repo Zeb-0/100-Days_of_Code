@@ -65,14 +65,14 @@
 
 ## Hyperlinks
 - Provide the ability to link from one web page to another
-- employ the use of the `anhor` tag: `<a>`
+- employ the use of the `anchor` tag: `<a>`
     * the `<a>` tag needs `href` attribute to create the link - identifies the destination of the link.
 - Hyperlinks take two types of links:
     * Relative - link within the open page
     * Absolute - link to outside pages(web)
 
 ### Linking to an Email Address
-check out:
+- check out:
     * [create email link](https://learn.shayhowe.com/html-css/getting-to-know-html/)
 
 ### Open links in new window
