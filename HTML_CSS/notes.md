@@ -82,3 +82,12 @@
 - We use an `ID` attribute on the element we wish to link to
 - in the anchor `href`, set its value as the `id` we set up to link the element:
     * `<a href="#top">Back to top</a>` to link to top of linked element.
+-------------------------------------------------------
+
+Day 30 - 100-Days_of_Code
+Picking up from where i left.
+
+## Positioning with floats
+
+- Uses the `float` prperty
+- can be cleared using the `clear` property.
