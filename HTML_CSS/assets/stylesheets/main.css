@@ -53,6 +53,7 @@ table {
 */
 body {
   color: #888;
+  background: #293f50;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -149,11 +150,20 @@ h1, h3, h4, h5, p {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 .btn-alt {
-  border: 1px solid #dfe2e5;
+  border: 1px solid #fff;
   padding: 1opx 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
 }
 
 /*
@@ -166,6 +176,7 @@ h1, h3, h4, h5, p {
   padding: 22px 80px 66px 80px;
   line-height: 44px;
   text-align: center;
+  color: #fff;
 }
 .hero h2 {
   font-size: 36px;
@@ -262,4 +273,11 @@ p a {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+}
+
+.primary-header a, .primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover, .primary-footer a:hover {
+  color:#648880
 }
