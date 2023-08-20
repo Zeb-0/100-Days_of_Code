@@ -53,7 +53,7 @@ table {
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -172,6 +172,7 @@ h1, h3, h4, h5, p {
 }
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
 /* primary header */
@@ -182,6 +183,9 @@ h1, h3, h4, h5, p {
   padding: 40px 0 22px 0;
   font-size: 48px;
   line-height: 44px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: .5x;
 }
 
 /* Primary footer */
