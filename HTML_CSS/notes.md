@@ -87,7 +87,43 @@
 Day 30 - 100-Days_of_Code
 Picking up from where i left.
 
-## Positioning with floats
+## Positioning
+
+### Positioning with floats
 
 - Uses the `float` prperty
 - can be cleared using the `clear` property.
+
+### Positioning with `Inline-Block`
+- in this case we use `dispaly` property in conjunction with the `inline-block` value
+    * Usage:
+        - ```
+        section {
+            display: inline-block;
+            ....
+        }
+        ```
+#### Remove space between inline-block elements:
+1. Put element's `opening tag` on same line as `closing tag` of previous element
+    ```
+    <header>...</header>
+    <section>
+     ...
+    </section><section>
+     ...
+    </section><section>
+     ...
+    </section>
+    ```
+2. Using `HTML comments`
+    ```
+    <section>
+        ...
+    </section><!--
+    --><section>
+        ...
+    </section><!--
+    --><section>
+        ...
+    </section>
+    ```
