@@ -84,7 +84,7 @@
     * `<a href="#top">Back to top</a>` to link to top of linked element.
 -------------------------------------------------------
 
-Day 30 - 100-Days_of_Code
+# Day 30 - 100-Days_of_Code
 Picking up from where i left.
 
 ## Positioning
