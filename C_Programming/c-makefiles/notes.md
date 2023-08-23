@@ -71,6 +71,7 @@ Are of two categories:
 - Except for the first target, the order of the targets does not matter. The make utility will build them in the order required.
 
 Example:
+
 ```# This is a comment line  CC=g++  # CFLAGS will be the options passed to the compiler.  CFLAGS=-c –Wall OBJECTS  = main.o hello.o factorial.o all: prog   prog: $(OBJECTS)  $(CC) $(OBJECTS)  -o prog   %.o:  %.cpp   $(CC) $(CFLAGS)  $<   clean:   rm -rf  *.o ```
 
 ## for reference check:
