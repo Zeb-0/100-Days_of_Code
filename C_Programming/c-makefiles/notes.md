@@ -49,8 +49,8 @@ Are of two categories:
     - Example:
         - The macro `@` evaluates to the name of the current target.
         - E.g. 
-        - prog1 : $(objs)
-            - $(CXX) -o @ $(objs) 
+        - `prog1 : $(objs)`
+            - `$(CXX) -o @ $(objs)`
         - is equivalent to 
-            - prog1 : $(objs)
-                * $(CXX) -o prog1 $(objs)
+            - `prog1 : $(objs)`
+                * `$(CXX) -o prog1 $(objs)`
