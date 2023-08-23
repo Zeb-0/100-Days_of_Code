@@ -45,8 +45,7 @@ Are of two categories:
 2. **Special Macros**
 - Have a specific purpose/significance beyond just replacing code.
 - They encapsulate complex tasks or operations in a concise and understandable way.
-- Are predefined by the programming language or libs you are using.
+- Are predefined by the programming language r libs you are using.
     - Example:
-        ```
-        The macro @ evaluates to the name of the current target. –E.g.  prog1 : $(objs)   $(CXX) -o $@ $(objs) is equivalent to  prog1 : $(objs)   $(CXX) -o prog1 $(objs) 
+        ```The macro @ evaluates to the name of the current target. –E.g.  prog1 : $(objs)   $(CXX) -o $@ $(objs) is equivalent to  prog1 : $(objs)   $(CXX) -o prog1 $(objs) 
         ```
