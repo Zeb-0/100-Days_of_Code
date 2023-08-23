@@ -54,3 +54,24 @@ Are of two categories:
         - is equivalent to 
             - `prog1 : $(objs)`
                 * `$(CXX) -o prog1 $(objs)`
+
+### Suffix rules
+- Are ways `make` can apply to define default rulles or implicit rules.
+- Are double and singlw suffix
+- Suffix rules are obsolete. Use pattern rule - a rule that contains char `%`
+- **Doubles-suffix** - are defined by sourcesuffix and target suffix. 
+
+### command line macros
+- defined on the commandline
+    - `make DEBUD_FLAG=-g`
+
+## How Does Make Work?
+- The make utility compares the modification time of the target file with the modification times of the dependency files. Any dependency file that has a more recent modification time than its target file forces the  target file to be recreated.  
+- By default, the first target file is the one that is built. Other targets are checked only if they are dependencies for the first target.
+- Except for the first target, the order of the targets does not matter. The make utility will build them in the order required.
+
+Example:
+```# This is a comment line  CC=g++  # CFLAGS will be the options passed to the compiler.  CFLAGS=-c –Wall OBJECTS  = main.o hello.o factorial.o all: prog   prog: $(OBJECTS)  $(CC) $(OBJECTS)  -o prog   %.o:  %.cpp   $(CC) $(CFLAGS)  $<   clean:   rm -rf  *.o ```
+
+## for reference check:
+- [Makefile](http://www.gnu.org/software/make/manual/html_node/)
