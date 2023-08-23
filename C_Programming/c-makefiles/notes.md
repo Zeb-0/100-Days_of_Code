@@ -72,7 +72,20 @@ Are of two categories:
 
 Example:
 
-```# This is a comment line  CC=g++  # CFLAGS will be the options passed to the compiler.  CFLAGS=-c –Wall OBJECTS  = main.o hello.o factorial.o all: prog   prog: $(OBJECTS)  $(CC) $(OBJECTS)  -o prog   %.o:  %.cpp   $(CC) $(CFLAGS)  $<   clean:   rm -rf  *.o ```
+- `# This is a comment line` 
+- `CC=g++`
+- `# CFLAGS will be the options passed to the compiler.`
+- `CFLAGS=-c –Wall`
+- `OBJECTS  = main.o hello.o factorial.o`
+- `all: prog`
+
+- `prog: $(OBJECTS)`
+    - `$(CC) $(OBJECTS)  -o prog`
+
+- `%.o:  %.cpp`
+    - `$(CC) $(CFLAGS)  $<`
+    
+- clean:   rm -rf  *.o ```
 
 ## for reference check:
 - [Makefile](http://www.gnu.org/software/make/manual/html_node/)
