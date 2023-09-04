@@ -6,3 +6,7 @@
 
 # DAY 33 - 100-Days_of_Code
 - took some break. It's been overwhelmingly hard maintaining this challenge.
+
+# Day 38 - 100-Days_of_Code
+- Resume the coding challenge.
+
