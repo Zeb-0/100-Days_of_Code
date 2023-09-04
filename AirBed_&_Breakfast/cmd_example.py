@@ -7,7 +7,7 @@ class TurtleShell(cmd.Cmd):
     file = None
 
     # ----- Basic turtle commands -----
-    def do_forward(self, arg);
+    def do_forward(self, arg):
         'Move the turtle forward by the specified distance: FORWARD 10'
         forward(*parse(arg))
 
