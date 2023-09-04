@@ -19,6 +19,17 @@ class TurtleShell(cmd.Cmd):
         'Turn turtle left by given number of degrees: RIGHT 20'
         left(*parse(arg))
 
+    def do_reset(self, arg):
+        'CLear the screen and return turtle to the center: RESET'
+        reset()
+
+    def do_bye(self, arg):
+        'Stop recording, close the turtle window and exit: BYE'
+        print('Thank you for using Turtle')
+        self.close()
+        bye()
+        return True
+
 def parse(arg):
     'Convert a series of zero or more numbers to an argument tuple'
     return tuple(map(int, arg.split()))
