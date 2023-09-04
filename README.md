@@ -9,4 +9,4 @@
 
 # Day 38 - 100-Days_of_Code
 - Resume the coding challenge.
-
+- Did manage to do some work in between the days from `Day 33`.
