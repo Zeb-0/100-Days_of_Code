@@ -16,7 +16,7 @@ class TurtleShell(cmd.Cmd):
         right(*parse(arg))
 
     def do_left(self, arg):
-        'Turn turtle right by given number of degrees: RIGHT 20'
+        'Turn turtle left by given number of degrees: RIGHT 20'
         left(*parse(arg))
 
 def parse(arg):
