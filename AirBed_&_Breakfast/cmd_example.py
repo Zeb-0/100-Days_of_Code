@@ -18,3 +18,10 @@ class TurtleShell(cmd.Cmd):
     def do_left(self, arg):
         'Turn turtle right by given number of degrees: RIGHT 20'
         left(*parse(arg))
+
+def parse(arg):
+    'Convert a series of zero or more numbers to an argument tuple'
+    return tuple(map(int, arg.split()))
+
+if __name__ == '__main__':
+    TurtleShell().cmdloop()
