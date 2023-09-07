@@ -63,6 +63,9 @@ Syntax:
 });`
 
 ### Complete a Promise with resolve and reject
-
+A Promise has 3 stages:
+- `pending` - has no way of completing it
+- `fulfilled` - when the promise has been `resolved` are added
+- `rejected` - failed
 
 
