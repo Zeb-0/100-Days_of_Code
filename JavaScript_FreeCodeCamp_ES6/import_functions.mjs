@@ -1,4 +1,5 @@
-import { add, sub, mul } from './export.mjs';
+import { add, sub, mul } from './export_funcs.mjs';
+
 const sum = add(4, 3);
 const dif = sub(4, 3);
 const res = mul(4, 3);
