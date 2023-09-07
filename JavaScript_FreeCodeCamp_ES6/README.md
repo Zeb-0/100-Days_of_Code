@@ -28,3 +28,5 @@ Refer to:
 Ref:
 - [export default](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-an-export-fallback-with-export-default)
 
+Is a syntax used if only one value is being exported from a file.
+Also used to provide a fallback value for a file or module.
