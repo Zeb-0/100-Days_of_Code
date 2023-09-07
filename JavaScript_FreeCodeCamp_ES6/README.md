@@ -46,4 +46,20 @@ Example:
 ### Import a Default Export
 Ref : [import default](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/import-a-default-export)
 
+---
+
+### Create a javascript Promise
+Is just a promise in JS to do something, usually asyncronously.
+- `Promise` is a constructor function
+- Use together with `new` keyword to create one.
+- Takes
+    * function as argument
+    * function takes 2 parameters - `resolve` & `reject`
+- the 2 parameters are used to determint the outcome of the promise.
+
+Syntax:
+- `const myPromise = new Promise((resolve, reject) => {
+
+});`
+
 
