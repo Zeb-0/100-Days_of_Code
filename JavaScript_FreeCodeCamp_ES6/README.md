@@ -23,3 +23,8 @@ It is done using `import * as` syntax
 
 Refer to:
 - [Import all](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use--to-import-everything-from-a-file)
+
+### Export Fallback
+Ref:
+- [export default](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-an-export-fallback-with-export-default)
+
