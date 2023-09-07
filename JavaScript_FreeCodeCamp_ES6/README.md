@@ -30,3 +30,9 @@ Ref:
 
 Is a syntax used if only one value is being exported from a file.
 Also used to provide a fallback value for a file or module.
+
+Example;
+* `export default func add(x, y) => {
+    return x + y;
+}`
+
