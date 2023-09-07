@@ -69,3 +69,8 @@ A Promise has 3 stages:
 - `rejected` - failed
 
 
+### Handle a fulfilled Promise with `then`
+ref: [then](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/handle-a-fulfilled-promise-with-then)
+
+### Handle a Rejected Promise with catch
+Ref: [catch](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/handle-a-rejected-promise-with-catch)
