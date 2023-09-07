@@ -17,3 +17,9 @@ Usage:
 - `import { f_name} from 'module_name(.js file)';`
 - Example:
     * import { add } from './export.js';
+
+#### Import everything from a file
+It is done using `import * as` syntax
+
+Refer to:
+- [Import all](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use--to-import-everything-from-a-file)
