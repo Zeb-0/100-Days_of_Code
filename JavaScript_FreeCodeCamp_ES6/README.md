@@ -31,8 +31,19 @@ Ref:
 Is a syntax used if only one value is being exported from a file.
 Also used to provide a fallback value for a file or module.
 
-Example;
-* `export default func add(x, y) => {
+Example:
+1. named function:
+* `export default func add(x, y) {
     return x + y;
 }`
+
+2. anonymous function:
+* `export default func(x, y) {
+    return x + y
+}`
+---
+
+### Import a Default Export
+Ref : [import default](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/import-a-default-export)
+
 
